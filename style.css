@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+body{
+    background-image: url(../images/bg.png);
+    font-size: 16px;
+    font-family: 'arial','Hiragino Sans','Meiryo',sans-serif;
+    color: #333;
+}
+header{
+    width: 1240px;
+    margin: 0px auto 44px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #7c5d48;
+    border-bottom: 2px solid #7c5d48;
+    padding: 12px 0px 10px;
+    background-color: rgba(255,255,255,0.42);
+}
+header nav ul li{
+    margin: 0px 20px;
+     font-size: 22px;
+    font-weight: bold;
+    color: #7c5d48;
+}
+header nav ul li:hover{
+    text-decoration: double underline 2px #7c5d48;
+}
+h1{
+    text-align: center;
+    padding: 20px 0px 16px;
+}
+div{
+    width: 1240px;
+    margin: 0px auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+article h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+time{
+    background-color: #91c777;
+    border-radius: 0 22px 22px 22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 13px 25px 12px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.eyecatch{
+    margin-bottom: 26px;
+}
+main{
+    flex-basis: 920px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 62px 72px 32px 72px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+}
+article h3{
+    border-bottom: #91c777 solid 2px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-image: url(../images/h2_icon.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 20px 10px 10px 48px;
+}
+article section{
+    margin-bottom: 50px;
+}
+article section p{
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+aside{
+    flex-basis: 282px;
+}
+aside nav{
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: px 0px 8px rgba(0,0,0,0.16);
+    padding: 24px 28px;
+    margin-bottom: 24px;
+}
+aside nav h2{
+    margin-bottom: 19px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7c5d48;
+}
+aside nav ul{
+    font-size: 14px;
+}
+.categoryNav ul li{
+    list-style-type: disc;
+    color: #7c5d48;
+    margin: 0 0 16px 20px;
+}
+.categoryNav ul li a{
+    color: #333;
+}
+.categoryNav ul li a:hover{
+    text-decoration: underline double #7c5d48;
+}
+.resetNav{
+    list-style-type: none;
+}
+.resetNav ul{
+    height: 240px;
+    overflow: hidden scroll;
+}
+.resetNav ul li{
+margin-bottom: 22px;
+border-bottom: #7c5d48 1px solid;
+padding-bottom: 10px;
+}
+.resetNav ul li a{
+    color: #333;
+}
+footer{
+    background-color: #523f2e;
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px 20px;
+}
