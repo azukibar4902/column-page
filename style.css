@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-image: url(../images/bg.png);
+    background-image: url(”./images/bg.png”);
     font-size: 16px;
     font-family: 'arial','Hiragino Sans','Meiryo',sans-serif;
     color: #333;
@@ -67,7 +67,7 @@ article h3{
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
-    background-image: url(../images/h2_icon.png);
+    background-image: url(”./images/h2_icon.png”);
     background-repeat: no-repeat;
     background-position: left bottom;
     padding: 20px 10px 10px 48px;
